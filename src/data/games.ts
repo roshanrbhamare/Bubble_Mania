@@ -3,16 +3,18 @@ import bubbleShooter from '../../Images/WhatsApp Image 2025-01-26 at 14.42.58_b0
 import fishEscape from '../../Images/WhatsApp Image 2025-01-26 at 14.45.33_9dd465a4.jpg';
 import bubbleProtector from '../../Images/WhatsApp Image 2025-01-26 at 14.42.58_4ae0452d.jpg'
 import bubbleSlicer from '../../Images/WhatsApp Image 2025-01-26 at 14.42.58_1d99dbbe.jpg'
+import bubbleAttack from '../../Images/bubbleAttack.jpg'
 
 export const games: Game[] = [
   {
-    id: '1',
-    title: 'Bubble Shooter',
-    shortDescription: 'Step into the vibrant universe of Bubble Shooting, a classic yet addictive arcade-style game! Aim, shoot, and match bubbles of the same color to clear the screen and complete exciting puzzles. Plan your moves wisely to create chain reactions and unlock special power-ups. With endless levels, stunning visuals, and relaxing yet challenging gameplay, Bubble Shooting is the perfect blend of fun and strategy for players of all ages.',
-    genre: 'RPG',
+    id: '5',
+    title: ' Bubble Defense: Skyward Siege',
+    shortDescription: 'Bubble Defense: Skyward Siege" - A thrilling strategic tower defense adventure that transforms your screen into a dynamic battlefield! Command an elite squad of bubble defenders against relentless sparrow invaders. Strategically place shooter, shield, and explosive bubbles to protect your territory from waves of aerial attackers. Plan each move carefully, create powerful bubble combinations, .',
+    genre: 'Strategic Tower Defense',
     
-    imageUrl: bubbleShooter,
-    features: ['Open World', 'Character Customization', 'Multiple Endings', 'Real-time Combat'],link:"https://idyllic-blini-8ad451.netlify.app/"
+    imageUrl: bubbleAttack,
+    features: ['Puzzle Solving', 'Beautiful Art Style', 'Original Soundtrack', 'Rich Story'],
+    link:"https://cerulean-cactus-eeb4dc.netlify.app/"
   },
   {
     id: '2',
@@ -22,6 +24,15 @@ export const games: Game[] = [
     
     imageUrl: bubbleProtector,
     features: ['Multiplayer Battles', 'Fleet Management', 'Resource Management', 'Diplomacy System'],link:"https://rococo-cheesecake-1806f5.netlify.app/"
+  },
+  {
+    id: '1',
+    title: 'Bubble Shooter',
+    shortDescription: 'Step into the vibrant universe of Bubble Shooting, a classic yet addictive arcade-style game! Aim, shoot, and match bubbles of the same color to clear the screen and complete exciting puzzles. Plan your moves wisely to create chain reactions and unlock special power-ups. With endless levels, stunning visuals, and relaxing yet challenging gameplay, Bubble Shooting is the perfect blend of fun and strategy for players of all ages.',
+    genre: 'RPG',
+    
+    imageUrl: bubbleShooter,
+    features: ['Open World', 'Character Customization', 'Multiple Endings', 'Real-time Combat'],link:"https://idyllic-blini-8ad451.netlify.app/"
   },
   {
     id: '3',
