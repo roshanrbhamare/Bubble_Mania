@@ -4,6 +4,7 @@ import fishEscape from '../../Images/WhatsApp Image 2025-01-26 at 14.45.33_9dd46
 import bubbleProtector from '../../Images/WhatsApp Image 2025-01-26 at 14.42.58_4ae0452d.jpg'
 import bubbleSlicer from '../../Images/WhatsApp Image 2025-01-26 at 14.42.58_1d99dbbe.jpg'
 import bubbleAttack from '../../Images/bubbleAttack.jpg'
+import safer from '../../Images/safer.jpg'
 
 export const games: Game[] = [
   {
@@ -12,7 +13,7 @@ export const games: Game[] = [
     shortDescription: 'Bubble Defense: Skyward Siege" - A thrilling strategic tower defense adventure that transforms your screen into a dynamic battlefield! Command an elite squad of bubble defenders against relentless sparrow invaders. Strategically place shooter, shield, and explosive bubbles to protect your territory from waves of aerial attackers. Plan each move carefully, create powerful bubble combinations, .',
     genre: 'Strategic Tower Defense',
     
-    imageUrl: bubbleAttack,
+    imageUrl: safer,
     features: ['Puzzle Solving', 'Beautiful Art Style', 'Original Soundtrack', 'Rich Story'],
     link:"https://cerulean-cactus-eeb4dc.netlify.app/"
   },
